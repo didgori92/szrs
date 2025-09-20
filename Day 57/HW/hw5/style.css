@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transition: 2s;
+}
+
+.box:hover {
+    transform: scale(2);
+}
+
+.box:active {
+    background-color: green;
+    transform: rotateY(180deg);
+    transition: background-color 0.4s;
+    transition: transform 0.4s;
+}

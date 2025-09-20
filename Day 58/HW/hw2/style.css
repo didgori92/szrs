@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    animation-name: Myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Myanimation {
+    0% {
+        background-color: red;
+        border-radius: 50%;
+    }
+
+    25% {
+        background-color: green;
+        transform: translateX(700px);
+        border-radius: 0%;
+    }
+
+    50% {
+        background-color: blue;
+        transform: translateX(650px) translateY(400px) scale(0.4);
+        border-radius: 25%;
+    }
+
+    75% {
+        background-color: purple;
+        transform: translateX(450px) translateY(700px) scale(0.7);
+        border-radius: 50%;
+    }
+
+    100% {
+        background-color: aqua;
+        transform: translateY(400px) translateX(200px) scale(0.2);
+        border-radius: 0%;
+    }
+
+}

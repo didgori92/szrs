@@ -1,0 +1,13 @@
+.parent {
+    display: grid;
+    height: 620px;
+    width: 620px;
+    border: 5px solid green;
+    gap: 10px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.child {
+    background-color: red;
+}

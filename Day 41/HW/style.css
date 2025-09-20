@@ -1,0 +1,33 @@
+#GOA {
+    text-decoration: none;
+    transition: 2s;
+}
+
+#GOA:link {
+    color: rgb(0, 30, 140);
+}
+
+#GOA:visited {
+    color: rgb(68, 20, 146);
+    text-decoration: none;
+}
+
+#GOA:hover {
+    color: rgb(123, 12, 6);
+    background-color: rgb(0, 50, 190);
+}
+
+#GOA:active {
+    background-color: rgb(30, 30, 70);
+    font-size: larger;
+}
+
+#goa {
+    transition: 2s;
+    text-decoration: none;
+}
+
+#goa:hover {
+    color: rgb(92, 87, 87);
+    text-decoration: underline;
+}

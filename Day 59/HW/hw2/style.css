@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 75, 178);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 1440px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-right: 100px;
+}
+
+.huddle {
+    width: 250px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.button {
+    width: 150px;
+    color: rgb(154, 150, 170);
+    background-color: white;
+    border: 0px;
+    border-radius: 25px;
+    height: 40px;
+}

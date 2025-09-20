@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-timing-function: ease-in-out;
+    transition: 2s;
+}
+
+.box:hover {
+    width: 400px;
+}

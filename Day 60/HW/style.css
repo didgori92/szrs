@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox {
+    display: flex;
+    width: 900px;
+    border-radius: 5px;
+}
+
+.mainbox h1, p {
+    color: white;
+}
+
+.sedan {
+    background-color: rgb(226, 133, 37);
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.sh1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.sp {
+    text-align: left;
+    opacity: 70%;
+    word-spacing: 3px;
+}
+
+.sedan button {
+    margin-top: 90px;
+    color: rgb(226, 133, 37);
+}
+
+.suv {
+    background-color: rgb(1, 105, 114);
+    width: 400px;
+    padding: 20px;
+}
+
+.uh1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.up {
+    text-align: left;
+    opacity: 70%;
+    word-spacing: 3px;
+}
+
+.suv button {
+    margin-top: 90px;
+    color: rgb(1, 105, 114);
+}
+
+.luxury {
+    background-color: rgb(0, 64, 63);
+    width: 400px;
+    padding: 20px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.lh1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.lp {
+    text-align: left;
+    opacity: 70%;
+    word-spacing: 3px;
+}
+
+.luxury button {
+    margin-top: 90px;
+    color: rgb(0, 64, 63);
+}
+
+.button {
+    border: none;
+    background-color: white;
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.sedan button:active {
+    background-color: rgb(226, 133, 37);
+    color: white;
+    border: 3px solid white;
+}
+
+.suv button:active {
+    background-color: rgb(1, 105, 114);
+    color: white;
+    border: 3px solid white;
+}
+
+.luxury button:active {
+    background-color: rgb(0, 64, 63);
+    color: white;
+    border: 3px solid white;
+}

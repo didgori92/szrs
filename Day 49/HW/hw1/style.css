@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+.container {
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item {
+    background-color: rgb(31, 31, 31);
+    border-radius: 25px;
+    padding: 1em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    margin: 10px; 
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(164, 194, 59);
+    color: rgb(20, 20, 20);
+}
+
+#git {
+    padding: 20px 120px 20px 120px;
+}
+
+#fem {
+    padding: 20px 85px 20px 85px;
+}
+
+#link {
+    padding: 20px 114px 20px 114px;
+}
+
+#x {
+    padding: 20px 120px 20px 120px;   
+}
+
+#insta {
+    padding: 20px 108px 20px 108px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    padding: 30px 100px 30px 100px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.location {
+    color: rgb(164, 194, 59);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 30px;
+}

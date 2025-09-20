@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+.box {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    animation-name: myAnimation;
+    animation-duration: 2s;
+}
+
+.square {
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+    animation-name: Myanimation;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes myAnimation {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: blue;
+    }
+}
+
+@keyframes Myanimation {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}

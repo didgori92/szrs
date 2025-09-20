@@ -1,0 +1,51 @@
+/* justify-content -
+flex-start - content starts from the left
+flex-end - content starts from the right
+center - content starts in the center
+space-around - content has equal space around eachother
+space-between - content has equal space inbetween
+space-evenly - content has all spaces distributed evenly
+baseline - content will align all texts inside them
+
+flex-direction - 
+column - content goes up to down
+column-reverse - content goes down to up
+row - content goes left to right
+row-reverse - content goes right to left*/
+
+.parent {
+    margin: 40px;
+    display: flex;
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.child {
+    border: 10px solid red;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: darkred;
+}
+
+.parent2 {
+    margin: 40px;
+    display: flex;
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.child2 {
+    border: 10px solid red;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: darkred;
+}

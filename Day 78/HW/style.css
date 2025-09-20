@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+head {
+    background-color: rgb(18, 15, 24);
+}
+
+body {
+    background-color: rgb(18, 15, 24);
+    background-image: url(rVeEH3OBGYbNyXqzdJ03O9C9wps.jpg.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+
+.navigation {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.deta {
+    padding-right: 90px;
+}
+
+.det {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.prod {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.res {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blog {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.log {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.try {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 100px 500px 500px;
+    grid-template-rows: 500px 500px 500px;
+}
+
+.top {
+    grid-row: 1/2;
+    grid-column: 2/4;
+}
+
+.h {
+    padding-left: 300px;
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.p {
+    padding-left: 350px;
+    font-size: 20px;
+}
+
+b {
+    color: rgb(94, 255, 158);
+}
+
+.down {
+    background-color: rgb(94, 255, 158);
+    color: black;
+    margin-left: 500px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 18px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.center {
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+
+.bottomleft {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.h2 {
+    font-size: 45px;
+    padding-top: 120px;
+}
+
+.p2 {
+    padding-top: 40px;
+}
+
+.bottomright {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.xn {
+    padding-left: 100px;
+}

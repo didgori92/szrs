@@ -1,0 +1,17 @@
+#div1 {
+    width: 70%;
+    height: 500px;
+    background-color: black;
+}
+
+#div2 {
+    width: 50%;
+    height: 50px;
+    font-size: 100px;
+    background-color: blue;
+}
+
+p {
+    font-size: 20%;
+    color: brown;
+}

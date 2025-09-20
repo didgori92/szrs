@@ -1,0 +1,47 @@
+#p1 {
+    color: rgb(233, 35, 183);
+}
+
+#p2 {
+    color: rgb(5, 35, 123);
+}
+
+#p3 {
+    color: rgb(77, 89, 0);
+}
+
+#p4 {
+    color: rgb(99, 255, 255);
+}
+
+#p5 {
+    color: rgb(255, 255, 130);
+}
+
+#p6 {
+    color: #FFB200;
+}
+
+#p7 {
+    color: #FF0000;
+}
+
+#p8 {
+    color: #0AFB55;
+    font-size: 25px;
+}
+
+#p9 {
+    background-color: #F000F0;
+    height: 25%;
+    width: 25%;
+    color: #FFFFFF;
+}
+
+#p10 {
+    background-color: #00F5A9;
+    color: #FF0000;
+    height: 13%;
+    width: 13%;
+    font-size: 23px;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+.button {
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.button:active {
+    transform: rotate(360deg) scale(2);
+    color: green;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+.square, .square2, .square3, .square4, .square5, .square6, .square7, .square8, .square9, .square0 {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    width: 40px;
+}
+
+.square2 {
+    position: relative;
+    left: 20px;
+}
+
+.square3 {
+    position: relative;
+    left: 40px;
+}
+
+.square4 {
+    position: relative;
+    left: 60px;
+}
+
+.square5 {
+    position: relative;
+    left: 80px;
+}
+
+.square6 {
+    position: relative;
+    left: 100px;
+}
+
+.square7 {
+    position: relative;
+    left: 80px;
+}
+
+.square8 {
+    position: relative;
+    left: 60px;
+}
+
+.square9 {
+    position: relative;
+    left: 40px;
+}
+
+.square0 {
+    position: relative;
+    left: 20px;
+}

@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(25, 161, 173);
+}
+
+.container {
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item {
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.pattern {
+    width: 500px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.profile {
+    border: 5px white solid;
+    border-radius: 50%;
+    margin-left: 190px;
+}
+
+.victor {
+    margin-top: 60px;
+    padding-left: 170px;
+}
+
+.p1 {
+    padding-left: 225px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    display: flex;
+    justify-content: space-evenly;
+}

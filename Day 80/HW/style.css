@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(28, 28, 30), rgb(44, 44, 46));
+}
+
+header {
+    background-color: rgb(28, 28, 30);
+    color: white;
+    text-align: space-evenly;
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.centernav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(44, 44, 46);
+    gap: 16px;
+    height: 40px;
+    width: 400px;
+    justify-content: center;
+    border: none;
+    border-radius: 32px;
+}
+
+.btn {
+    background-color: rgb(23, 23, 25);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn2 {
+    background-color: rgb(40, 40, 43);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    color: white;
+}
+
+
+.h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.p {
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.btn3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(42, 42, 44);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.img3 {
+    position: relative;
+    bottom: 420px;
+    left: 200px;
+}
+
+.img4 {
+    position: relative;
+    bottom: 920px;
+    right: 500px;
+}
+
+.im5 {
+    position: relative;
+    bottom: 2520px;
+    left: 600px;
+}

@@ -1,0 +1,21 @@
+h1 {
+    color: darkgreen;
+    background-color: black;
+    text-align: center;
+}
+
+h3 {
+    color: darkgreen;
+    background-color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    background-color: darkgreen;    
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}

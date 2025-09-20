@@ -1,0 +1,34 @@
+#p1 {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+#p2 {
+    color: rgb(10, 158, 126);
+    text-decoration: overline;
+}
+
+#p3 {
+    color: rgb(104, 150, 32);
+    text-decoration: line-through;
+}
+
+#p4 {
+    color: rgb(92, 43, 55);
+    text-decoration: underline overline;
+}
+
+#p5 {
+    color: rgb(66, 21, 59);
+    text-decoration: overline line-through;
+}
+
+#p6 {
+    color: rgb(0, 47, 255);
+    text-decoration: underline line-through;
+}
+
+#p7 {
+    color: rgb(100, 47, 47);
+    text-decoration: underline overline line-through;
+}

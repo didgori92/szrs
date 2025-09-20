@@ -1,0 +1,67 @@
+ul {
+    list-style-type: lower-roman;
+}
+
+#listy {
+    list-style-image: url(Pictogrammers-Material-Flag-variant-plus-outline.48.png);
+}
+
+#listy1 {
+    list-style-type: armenian;
+}
+
+#listy2 {
+    list-style-type: circle;
+}
+
+#listy3 {
+    list-style-type: decimal;
+}
+
+#listy4 {
+    list-style-type: decimal-leading-zero;
+}
+
+#listy5 {
+    list-style-type: disc;
+}
+
+#listy6 {
+    list-style-type: georgian;
+}
+
+#listy7 {
+    list-style-type: lower-alpha;
+}
+
+#listy8 {
+    list-style-type: lower-greek;
+}
+
+#listy9 {
+    list-style-type: lower-latin;
+}
+
+#listy10 {
+    list-style-type: none;
+}
+
+#listy11 {
+    list-style-type: square;
+}
+
+#listy12 {
+    list-style-type: square;
+}
+
+#listy13 {
+    list-style-type: upper-alpha;
+}
+
+#listy14 {
+    list-style-type: upper-latin;
+}
+
+#listy15 {
+    list-style-type: upper-roman;
+}

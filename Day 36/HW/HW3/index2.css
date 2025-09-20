@@ -1,0 +1,31 @@
+header {
+    background-color: #028302;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+body {
+    background-color: #000000
+}
+
+p {
+    color: #FFFFFF
+}
+
+#blue {
+    background-color: #0000FF;
+    width: 400px;
+    height: 400px;
+}
+
+#green {
+    background-color: #00FF00;
+    width: 400px;
+    height: 400px;
+}
+
+#red {
+    background-color: #FF0000;
+    width: 400px;
+    height: 400px;
+}
