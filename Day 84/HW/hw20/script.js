@@ -1,9 +1,7 @@
-let input = Number(prompt("Enter a number:"));
-let isAvgOf5 = Number.isInteger((input - 5) * 2);
-let isAvgOf10 = Number.isInteger((input - 10) * 2);
+let num = Number(prompt("Enter a number "))
 
-if (isAvgOf5 && !isAvgOf10) {
-    console.log("The input is the average of 5");
+if (num % 5 === 0 && num % 10 !== 0) {
+    console.log("ეს ნომერი არის 5ის კერადი, და არ არის 10ის")
 } else {
-    console.log("The input does not meet the condition.");
+    console.log("არ არის 5ის ჯერადი")
 }
