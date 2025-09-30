@@ -1,0 +1,1 @@
+// true && false || !false == true & true will be true because all the conditions are true

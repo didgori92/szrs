@@ -1,0 +1,1 @@
+// true || false  && false && 10 === 10.0 will be true because at least one condition is true

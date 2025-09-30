@@ -1,0 +1,1 @@
+// false && true || 'name' === 'Name' && 1 == '1' will be false because one of the conditions is false

@@ -1,0 +1,1 @@
+//  !(10 > 5) === false && 10 > 3 && 20 == 10 will be false because one of the conditions is false
