@@ -1,0 +1,42 @@
+div {
+    background-color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(0, 60, 0);
+}
+
+#p1 {
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+
+#p2 {
+    text-transform: lowercase;
+    color: rgb(255, 255, 255);
+}
+
+#p3 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+#p4 {
+    text-decoration: wavy underline rgb(0, 120, 0);
+    color: rgb(0, 0, 0);
+}
+
+#p5 {
+    text-decoration: dashed overline underline rgb(160, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#p6 {
+    text-decoration: dashed line-through rgb(255, 255, 0);
+    color: rgb(0, 0, 190);
+}

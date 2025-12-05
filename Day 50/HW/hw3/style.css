@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(13, 26, 45);
+}
+
+.container {
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item {
+    background-color: rgb(21, 39, 63);
+    border-radius: 20px;
+    width: 440px;
+}
+
+
+.value {
+    display: flex;
+}
+
+.creator {
+    display: flex;
+}
+
+h1 {
+    color: white;
+    margin-left: 25px;
+}
+
+.p1 {
+    color: white;
+    opacity: 30%;
+    padding-left: 25px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.p2 {
+    color: rgb(0, 255, 248);
+}
+
+.p3 {
+    color: white;
+    opacity: 30%;
+    padding-left: 4px;
+}
+
+.p4 {
+    color: white;
+    opacity: 30%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 6px;
+}
+
+.p5 {
+    color: white;
+    margin-top: 20px;
+}
+
+.img1 {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.icon1 {
+    width: 15px;
+    height: 25px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.icon2 {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img2 {
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}

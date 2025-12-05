@@ -1,0 +1,52 @@
+header {
+    background-color: darkgreen;
+}
+
+body {
+    background-color: black;
+}
+
+#section1 {
+    color: darkgreen;
+    border: 5px solid white;
+}
+
+#section2 {
+    color: darkgreen;
+    border: 5px solid white;
+}
+
+#section3 {
+    color: darkgreen;
+    border: 5px solid white;
+}
+
+#section4 {
+    color: darkgreen;
+    border: 5px solid white;
+}
+
+#section5 {
+    color: darkgreen;
+    border: 5px solid white;
+}
+
+footer {
+    color: darkgreen;
+}
+
+img {
+    width: 200px;
+}
+
+nav {
+    text-align: center;
+}
+
+p {
+    font-family: 'The Nautigal', sans-serif;
+}
+
+h1 {
+    font-family: 'The Nautigal', sans-serif;
+}

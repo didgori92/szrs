@@ -1,0 +1,11 @@
+p u{
+    color: rgb(5, 9, 255);
+    background-color: lightslategray;
+}
+
+p {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+

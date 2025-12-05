@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    transition: 2s;
+}
+
+.square:hover {
+    transform: scale(2) rotate(1480deg);
+}
+
+.square:active {
+    transform: scale(0.5) rotate(-1480deg);
+    background-color: red;
+}
+
+
+/*
+
+translateX and Translate Y: moving on x and y axis
+translate: does both x and y
+rotate: rotating (use deg in ())
+skew: tilts to a side
+scaleX and scaleY: scale but only on its axis
+scale: size, does not need px
+
+/*

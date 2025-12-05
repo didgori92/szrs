@@ -1,0 +1,395 @@
+question 1
+
+რას დაგვიდეჭდავს ეს კოდი ტერმინალში? print(type("Hello, World!"))
+
+answer:
+
+str
+
+question 2
+
+როგორ შევქმნათ პითონში კომენტარი?
+
+answer:
+
+# this is a comment
+
+question 3 
+
+რისთვის ვიყენებთ range() ფუნქციას?
+
+answer:
+
+შევქმნათ რიცხვების დიაპაზონი, გვქონდეს თანმიმდევრობა
+
+question 4
+
+სთრინგების კონკატინაციისთვის რომელ ოპერატორს ვიყენებთ?
+
+answer:
+
++
+
+question 5
+
+ამ 4-დან, რომელი არ არის სწორი მონაცემთა ტიპი?
+
+answer:
+
+real
+
+question 6
+
+რომელი ფუნქციის გამოყენებით შეგვიძლია მომხმარებლს შემოვატანინოთ ინფორმაცია?
+
+answer:
+
+input()
+
+question 7 
+
+რომელ სიტყვით (keyword) შეიქმნება ციკლი? 
+
+answer:
+
+for
+
+question 8
+
+რომელ ფუნქციით გადავაქცევთ ტექსტურ ინფორმაციას ათწილადად?
+
+answer:
+
+float()
+
+question 9
+
+რას დაგვიდეჭდავს ეს კოდი: print(2 > 3) ?
+
+answer:
+
+false
+
+question 10
+
+რომელი კოდით შევქმნით უსასრულო ციკლს?
+
+answer:
+
+while True:
+
+question 11
+
+რას დაგვიდეჭდავს ეს კოდი: print('hello ' + 'World') ?
+
+answer: 
+
+Hello World
+
+question 12 
+
+რას დაგვიდეჭდავს ეს კოდი: print(4 % 2) ?
+
+answer:
+
+0
+
+question 13
+
+რომელია პითონის ფაილის სწორი დაბოლოება?
+
+answer:
+
+.py
+
+question 14
+
+რას დაგვიდეჭდავს ეს კოდი: print(10 == 10) ?
+
+True
+
+question 15
+
+ამ 4-დან, რომელია სწორი ცვლადის სახელი?
+
+answer:
+
+_var_name
+
+question 16 
+
+რას დაგვიდეჭდავს ეს კოდი: print('5' * 3) ?
+
+answer:
+
+555
+
+question 17
+
+რას დაგვიდეჭდავს ეს კოდი: print('Hello'[-1]) ?
+
+answer:
+
+o
+
+question 18
+
+რას დაგვიდეჭდავს ეს კოდი: print(list(range(2, 10, 2))) ?
+
+answer:
+
+[2, 4, 6, 8]
+
+question 19
+
+რისთვის ვიყენებთ while ციკლს?
+
+answer:
+
+კოდი თავიდან გაეშვას, მაშინ როდესაც ციკლის პირობა იქნება სწორი
+
+question 20
+
+ამ 4-დან, რომელი წინადადებაა სწორი while ციკლის შესახებ?
+
+answer:
+
+while ციკლი შესაძლოა უსასრულოდ გაგრძელდეს, თუ მისი პირობა სწორი იქნება
+
+question 21
+
+boolean მონაცემთა ტიპის შესაძლო მნიშვნელობები?
+
+answer:
+
+True და false
+
+question 22
+
+ამ 4 კოდიდად, რომლის მნიშვნელობა იქნება True?
+
+answer:
+
+1 <= 1
+
+question 23
+
+რომელი ოპერატორით ვამოწმებთ, ორივე boolean თუ არის True-ს ტოლი?
+
+answer:
+
+and
+
+question 24
+
+როგორ დავბეჭდოთ 30? my_list = [10, 20, 30, 40]
+
+answer:
+
+my_list[1]
+
+question 25
+
+ამ 4-დან რომელია სწორი პითონის სია?
+
+answer:
+
+list = [1, 2, 3]
+
+question 26
+
+რას ნიშნავს HTML?
+
+answer:
+
+HyperText Markup Language
+
+question 27
+
+რა არის <head> თეგის დანიშნულება?
+
+answer:
+
+საიტის ტექნიკური ინფორმაციის შენახვა
+
+question 28
+
+რომელი თეგით შეიქმნება hyperlink?
+
+answer:
+
+<a>
+
+question 29
+
+ყველაზე დიდი სათაური რომელი თეგით შეიქმნება?
+
+answer:
+
+<h1>
+
+question 30
+
+რომელი ატრიბუტი გამოიყენება სურათის ალტერნატიული ტექსტის დასაწერად?
+
+alt
+
+question 31
+
+რაში გამოიყენება title ტეგი?
+
+answer:
+
+ვქმნით html-ის დოკუმენტის სათაურს
+
+question 32
+
+ხაზის გასაწყვეტად რომელ თეგს ვხმარობთ?
+
+answer:
+
+<br>
+
+question 33
+
+დაულაგებელი სიის შესაქმნელად რომელ ელემენტს ვიყენებთ?
+
+answer:
+
+<ul>
+
+question 34
+
+როგორ შევქმნათ checkbox?
+
+answer:
+
+<input type="checkbox">
+
+question 35
+
+რომელი ატრიბუტით შეგვიძლია css-ის გაწერა?
+
+answer:
+
+style
+
+question 36
+
+ტექსტის შესატანი ველი როგორ შევქმნათ?
+
+answer:
+
+<input type="text">
+
+question 37
+
+რომელი ატრიბუტით მივუთითებთ hyperlink-ის მისამართს?
+
+answer:
+
+href
+
+question 38
+
+რას წარმოადგენს em თეგი?
+
+answer:
+
+დახრილი ტექსტი
+
+question 39
+
+რომელი თეგით შეიქმნება form?
+
+answer:
+
+<form>
+
+question 40
+
+რომელი ატრიბუტით გახდება ელემენტი უნიკალური?
+
+answer:
+
+id
+
+question 41
+
+როგორ შევქმნათ დალაგებული სია?
+
+answer:
+
+ol
+
+question 42
+
+რომელი თეგით შეიქმნება dropdown მენიუ?
+
+answer:
+
+<select>
+
+question 43
+
+რას წარმოადგენს nav თეგი?
+
+answer:
+
+სექცია, სადაც გვაქვს ნავიგაციის ლინკი
+
+question 44
+
+რისთის გამოიყენება main თეგი?
+
+answer:
+
+საიტის მთავარი ნაწილის შექმნა
+
+question 45
+
+რომელია html-ის კომენტარი?
+
+answer:
+
+<!-- This is a comment -->
+
+question 46
+
+რომელი ატრიბუტით მივუთითებთ, რომ input აუცილებლად უნდა შეივსოს?
+
+answer:
+
+required
+
+question 47
+
+სურათს რომელი თეგით დავამატებთ საიტს?
+
+answer:
+
+img
+
+question 48
+
+აუდიო ფაილების დასამატებლად რომელ თეგს ვიყენებთ?
+
+answer:
+
+<audio>
+
+question 49
+
+ვიდეო ფაილების დასამატებლად რომელ თეგს ვიყემებთ?
+
+answer:
+
+<video>
+
+question 50
+
+GOA > დანარჩენი პროგრამირების აკადემია
+
+answer:
+
+True

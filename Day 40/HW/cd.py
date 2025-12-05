@@ -1,0 +1,2 @@
+#in the first codewars homework, the number is divided by 2, and if it can divide, it means the number is even, otherwise, it is odd
+#in the second codewars homework, the code simply needed the return command and being put inside ()

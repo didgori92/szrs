@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation-name: Myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Myanimation {
+    
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(1300px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+
+}

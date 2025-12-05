@@ -1,0 +1,10 @@
+div {
+    width: 1600px;
+    height: 500px;
+    background-color: rgb(145, 60, 60);
+    border: solid 6px rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

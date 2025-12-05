@@ -1,0 +1,16 @@
+/* diplay
+flex-direction
+justify-content
+align-items*/
+
+#parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid black;
+}
+
+#list {
+    display: flex;
+    text-decoration: none;
+}

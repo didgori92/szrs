@@ -1,0 +1,74 @@
+main {
+    background-color: rgb(243, 229, 216);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    border-radius: 25px;
+    width: 580px;
+    margin: 40px;
+}
+
+#title {
+    color: rgb(40, 37, 35);
+}
+
+#p1 {
+    color: rgb(96, 92, 89);
+}
+
+.prep {
+    background-color: rgb(255, 247, 252);
+    border-radius: 10px;
+}
+
+#prep {
+    color: rgb(113, 40, 70);
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+#list1 {
+    color: rgb(88, 80, 76);
+    padding-bottom: 20px;
+}
+
+img {
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+#ingredients {
+    color: rgb(126, 69, 54);
+}
+
+#l2 {
+    padding: 5px;
+    color: rgb(88, 80, 76);
+}
+
+#instr {
+    color: rgb(126, 69, 54);
+}
+
+#l1 {
+    padding: 5px;
+    color: rgb(88, 80, 76);
+}
+
+#nutr {
+    color: rgb(126, 69, 54);
+}
+
+#p2 {
+    padding: 5px;
+    color: rgb(88, 80, 76); 
+}

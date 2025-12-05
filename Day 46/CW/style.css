@@ -1,0 +1,26 @@
+#div1 {
+    background-color: rgb(33, 123, 55);
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(45, 224, 90);
+    padding: 20px;
+}
+
+#div2 {
+    background-color: rgb(33, 123, 55);
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(45, 224, 90);
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#div3 {
+    background-color: rgb(33, 123, 55);
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(45, 224, 90);
+    padding: 10px 20px 15px 30px;
+}

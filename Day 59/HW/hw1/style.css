@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    background-color: white;
+    width: 1000px;
+}
+
+
+
+.topdiv {
+    display: flex;
+    flex-direction: row;
+    gap: 1400px;
+    background-color: rgb(237, 251, 254);
+    padding: 20px;
+}
+
+.freetrial {
+    border: 0px;
+    background-color: white;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: 800;
+}
+
+.bottomdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 251, 254);
+}
+
+.sideimage {
+    width: 850px;
+}
+
+.introduction {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.freetrial2 {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    width: 250px;
+    border: 0px;
+    background-color: rgb(254, 82, 192);
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 400px;
+}

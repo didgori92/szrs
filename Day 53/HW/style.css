@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(236, 242, 255);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.card {
+    display: flex;
+    width: 400px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(62, 50, 238);
+    padding: 20px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.item2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#title, #number, #num, #great, #score {
+    color: white;
+}
+
+#title, #num, #score {
+    opacity: 70%;
+}
+
+#title {
+    padding-bottom: 20px;
+}
+
+#great {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.reaction {
+    background-color: rgb(255, 246, 247);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.memory {
+    background-color: rgb(255, 250, 244);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.verbal {
+    background-color: rgb(242, 253, 249);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.visual {
+    background-color: rgb(244, 244, 254);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    background-color: rgb(48, 59, 89);
+    color: white;
+    width: 150px;
+    height: 40px;
+    transition: 1.5s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(65, 51, 240);
+}
