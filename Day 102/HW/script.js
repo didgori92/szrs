@@ -69,9 +69,10 @@ for(let z in movie) {
 // hw5
 
 let data = {
-    name: "Alex",
-    age: 20,
-    city: "Tbilisi"
+    name: "Levani",
+    age: 18,
+    city: "Khoni",
+    hobby: "Gaming"
 }
 
 let key = prompt("Enter a key:")
@@ -86,7 +87,7 @@ if(key in data) {
 
 // hw6
 
-let list1 = ["apple", "banana", "apple", "orange", "banana", "kiwi"]
+let list1 = ["hey", "water", "water", "pink", "banana", "nineteen"]
 
 let counts = {
 
