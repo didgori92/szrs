@@ -56,8 +56,10 @@ if(typeof usrnm !== "number") {
     }
 
     let temp = usrnm
-    if(temp < 0) temp = temp * -1
-
+    if(temp < 0) {
+        temp = temp * -1
+    }
+    
     let sum = 0
     if(temp === 0) {
         sum = 0
