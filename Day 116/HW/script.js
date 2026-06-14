@@ -316,11 +316,11 @@ switch(true) {
     case (pw.length < 8):
         console.log("yo password short")
         break
-    case (pw.length <= 12):
+    case (pw.length > 8 && pw.length <= 12):
         console.log("nice length")
         break
     default:
-        console.log("not ideal size")
+        console.log("ideal size")
 }
 
 
