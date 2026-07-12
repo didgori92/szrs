@@ -127,25 +127,25 @@ if(enter === pass) {
 // hw7
 
 function prime(num) {
-  if(num < 2) {
-    return false
-  }
- 
-  for(let i = 2; i <= Math.sqrt(num); i++) {
-    if(num % i === 0) {
+    if(num < 2) {
       return false
     }
-  }
- 
-  return true
+
+    for(let i = 2; i <= Math.sqrt(num); i++) {
+      if(num % i === 0) {
+        return false
+      }
+    }
+  
+    return true
 }
- 
+
 let result = document.getElementById("7res")
 let uls = document.getElementById("7ul")
- 
+
 
 let numb = Number(prompt("enter a number: "))
- 
+
 if(prime(numb)) {
     uls.textContent = "this isnt a prime number"
 } else {

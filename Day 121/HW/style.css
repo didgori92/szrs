@@ -1,0 +1,41 @@
+.active {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 45px;
+    font-size: 30px;
+}
+
+#image {
+    width: 300px;
+}
+
+#div {
+    border: 10px black solid;
+    width: 150px;
+    height: 100px;
+}
+
+.offline {
+    background-color: purple;
+}
+
+.online {
+    background-color: aqua;
+}
+
+.box {
+    background-color: orange;
+    width: 200px;
+    height: 150px;
+    border: 10px red dotted;
+}
+
+.style {
+    background-color: brown;
+    border: 5px double green;
+    width: 150px;
+    height: 150px;
+}
+
