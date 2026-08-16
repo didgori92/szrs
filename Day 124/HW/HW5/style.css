@@ -1,0 +1,15 @@
+.box {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.txtbox {
+    width: 250px;
+    background-color: #576574;
+}

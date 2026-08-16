@@ -1,0 +1,12 @@
+.lbox {
+    width: 300px;
+    height: 200px;
+    background-color: #000000;
+    color: white;
+    border: 2px dashed #700000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border 0.2s ease, background-color 0.2s ease;
+    cursor: pointer;
+}

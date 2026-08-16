@@ -1,0 +1,16 @@
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.1s ease;
+    cursor: pointer;
+}
+
+.ball {
+    border-radius: 50%;
+    background-color: #1dd1a1;
+}
