@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#leftside {
+    width: 35%;
+    background-image: url('bg-main-desktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#cardfront {
+    width: 360px;
+    height: 200px;
+    background-image: url('bg-card-front.png');
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    right: -100px;
+    padding: 22px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+#cardlogo {
+    width: 60px;
+}
+
+#numdisplay {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+#carddetails {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+#cardback {
+    width: 360px;
+    height: 200px;
+    background-image: url('bg-card-back.png');
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 52%;
+    right: -160px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+#cvcdisplay {
+    position: absolute;
+    top: 86px;
+    right: 45px;
+    color: white;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+#rightside {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+}
+
+#cardform {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.inputgroup {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.inputgroup label {
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(35, 31, 32);
+}
+
+.inputgroup input {
+    padding: 10px 12px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+.inputgroup input:focus {
+    border-color: rgb(90, 40, 100);
+}
+
+#rowinputs {
+    display: flex;
+    gap: 12px;
+}
+
+#expinputs {
+    display: flex;
+    gap: 8px;
+}
+
+#expinputs input {
+    width: 65px;
+}
+
+#confirmbtn {
+    margin-top: 10px;
+    background-color: rgb(33, 9, 39);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+#confirmbtn:hover {
+    opacity: 0.9;
+}

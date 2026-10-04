@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Main Page</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+        </header>
+
+        <main>
+
+            <div id="container">
+
+                <div id="leftside">
+
+                    <div id="cardfront">
+
+                        <img src="card-logo.svg" id="cardlogo" alt="Card Logo">
+
+                        <p id="numdisplay">0000 0000 0000 0000</p>
+
+                        <div id="carddetails">
+
+                            <p id="namedisplay">JANE APPLESEED</p>
+
+                            <p id="datedisplay"><span id="mmdisplay">00</span>/<span id="yydisplay">00</span></p>
+
+                        </div>
+
+                    </div>
+
+                    <div id="cardback">
+
+                        <p id="cvcdisplay">000</p>
+
+                    </div>
+
+                </div>
+
+                <div id="rightside">
+
+                    <form id="cardform">
+
+                        <div class="inputgroup">
+
+                            <label for="cardname">CARDHOLDER NAME</label>
+
+                            <input type="text" id="cardname" placeholder="e.g. Jane Appleseed" maxlength="25">
+
+                        </div>
+
+                        <div class="inputgroup">
+
+                            <label for="cardnum">CARD NUMBER</label>
+
+                            <input type="text" id="cardnum" placeholder="e.g. 1234 5678 9123 0000" maxlength="19">
+
+                        </div>
+
+                        <div id="rowinputs">
+
+                            <div class="inputgroup">
+
+                                <label>EXP. DATE (MM/YY)</label>
+
+                                <div id="expinputs">
+
+                                    <input type="text" id="expmm" placeholder="MM" maxlength="2">
+
+                                    <input type="text" id="expyy" placeholder="YY" maxlength="2">
+
+                                </div>
+
+                            </div>
+
+                            <div class="inputgroup">
+
+                                <label for="cardcvc">CVC</label>
+
+                                <input type="text" id="cardcvc" placeholder="e.g. 123" maxlength="3">
+
+                            </div>
+
+                        </div>
+
+                        <button type="submit" id="confirmbtn">Confirm</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+        </header>
+
+        <main>
+
+            <div class="topbar">
+                <span class="logo">calc</span>
+                <div class="themelabel">THEME</div>
+                <div class="togglebox">
+                    <div class="tolenums">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                    </div>
+                    <div class="togglebg">
+                        <div class="togglebtn"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="disp" id="disp">0</div>
+
+            <div class="keypad">
+                <button class="btn numbtn" data-val="7">7</button>
+                <button class="btn numbtn" data-val="8">8</button>
+                <button class="btn numbtn" data-val="9">9</button>
+                <button class="btn actbtn" id="del">DEL</button>
+
+                <button class="btn numbtn" data-val="4">4</button>
+                <button class="btn numbtn" data-val="5">5</button>
+                <button class="btn numbtn" data-val="6">6</button>
+                <button class="btn opbtn" data-op="+">+</button>
+
+                <button class="btn numbtn" data-val="1">1</button>
+                <button class="btn numbtn" data-val="2">2</button>
+                <button class="btn numbtn" data-val="3">3</button>
+                <button class="btn opbtn" data-op="-">-</button>
+
+                <button class="btn numbtn" data-val=".">.</button>
+                <button class="btn numbtn" data-val="0">0</button>
+                <button class="btn opbtn" data-op="/">/</button>
+                <button class="btn opbtn" data-op="x">x</button>
+
+                <button class="btn actbtn resetbtn" id="reset">RESET</button>
+                <button class="btn eqbtn" id="equals">=</button>
+            </div>
+
+        </main>
+
+        <footer>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
