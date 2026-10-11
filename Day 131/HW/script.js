@@ -16,41 +16,41 @@ document.getElementById("regform").addEventListener("submit", function (e) {
     pwderr.textContent = ""
     cpwderr.textContent = ""
 
-    let ok = true
+    let tr = true
 
     if(usrval === "") {
         usrerr.textContent = "Username cannot be blank."
-        ok = false
+        tr = false
     } else if(usrval.length < 3) {
         usrerr.textContent = "Username must be at least 3 characters long."
-        ok = false
+        tr = false
     }
 
     if(emlval === "") {
         emlerr.textContent = "Email cannot be blank."
-        ok = false
+        tr = false
     } else if(!emlval.includes("@") || !emlval.includes(".")) {
         emlerr.textContent = "Please enter a valid email address."
-        ok = false
+        tr = false
     }
 
     if(pwdval === "") {
         pwderr.textContent = "Password cannot be blank."
-        ok = false
+        tr = false
     } else if(pwdval.length < 6) {
         pwderr.textContent = "Password must be at least 6 characters long."
-        ok = false
+        tr = false
     }
 
     if(cpwdval === "") {
         cpwderr.textContent = "Please confirm your password."
-        ok = false
+        tr = false
     } else if(cpwdval !== pwdval) {
         cpwderr.textContent = "Passwords do not match."
-        ok = false
+        tr = false
     }
 
-    if (ok) {
+    if (tr) {
         alert("Registration successful!")
 
         document.getElementById("usr").value = ""
