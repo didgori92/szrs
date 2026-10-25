@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Main Page</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+        </header>
+
+        <main>
+
+            <div class="container" id="box">
+
+                <input class="inp" id="name" type="text" placeholder="Product Name">
+                <p class="err"></p>
+                <input class="inp" id="price" type="number" placeholder="Product Price">
+                <p class="err"></p>
+                <input class="inp" id="photo" type="text" placeholder="Product Photo">
+                <p class="err"></p>
+                <select class="inp" id="desc">
+                    <option value="" disabled selected>Select Category</option>
+                    <option value="tecnic">Technic</option>
+                    <option value="housethings">House Things</option>
+                    <option value="clothes">Clothes</option>
+                </select>
+                <p class="err"></p>
+
+                <button class="btn" id="btnct">Add to Cart</button>             
+                
+                <button class="btn filterbtn" data-cat="all">Show All Items</button>
+                <button class="btn filterbtn" data-cat="clothes">Show Clothes</button>
+                <button class="btn filterbtn" data-cat="tecnic">Show Devices</button>
+                <button class="btn filterbtn" data-cat="housethings">Show House Items</button>
+
+            </div>
+
+
+
+            <div class="container" id="prodbox">
+
+            </div>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

@@ -1,27 +1,28 @@
-let names = []
-
-let els = {
-    inp: document.getElementById("ninp"),
-    btn: document.getElementById("addbtn"),
-    lst: document.getElementById("nmslst")
-}
+let scores = []
 
 function rndr() {
-    els.lst.innerHTML = ""
+    let lst = document.getElementById("scrlst")
+    let sumtxt = document.getElementById("sumtxt")
+    
+    lst.innerHTML = ""
+    let total = 0
 
-    for (let i = 0; i < names.length; i++) {
+    for(let i = 0; i < scores.length; i++) {
         let li = document.createElement("li")
-        li.textContent = names[i]
-        els.lst.append(li)
+        li.textContent = scores[i] + " points"
+        lst.append(li)
+        total += scores[i]
     }
+
+    sumtxt.textContent = "Total: " + total + " points"
 }
 
-els.btn.addEventListener("click", function () {
-    let val = els.inp.value.trim()
+let buttons = document.querySelectorAll(".subbtn")
 
-    if(val !== "") {
-        names.push(val)
+for(let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function() {
+        let val = Number(this.getAttribute("data-val"))
+        scores.push(val)
         rndr()
-        els.inp.value = ""
-    }
-})
+    })
+}
